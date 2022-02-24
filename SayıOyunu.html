@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+      
+        
+        <script>
+          
+          var girilensayı = parseInt(prompt("iki basamaklı bir sayı giriniz"));
+               var üretilensayı = (Math.random() * 100) + 1;
+               var üretilensayıtam = Math.floor(üretilensayı);
+               var üretilensayıib = üretilensayı % 10;
+               var üretilensayıbb = Math.floor(üretilensayı / 10);
+
+               var girilensayıib = girilensayı % 10; 
+               var girilensayıbb = Math.floor(girilensayı / 10);
+               
+
+              
+
+
+              if (üretilensayıtam == girilensayı) {
+                  alert("10000 lira kazandınız");
+                  
+              }else if(üretilensayıbb == girilensayıbb && üretilensayıib == girilensayıib){
+                  alert("5000 lira kazandınız");
+                   
+              }else if(üretilensayıbb == girilensayıbb){
+                  alert("1000 lira kazandınız");
+              }else if(üretilensayıib == girilensayıib){
+                  alert("1000 lira kazandınız");
+              }else{
+                  alert("kazanamadınız" + " " + üretilensayıtam);
+              }
+
+               
+
+               
+       </script>
+    </body>
+</html>
+               
+
+               
+
+
+
+
+
+               
+               
+
+               
+
+ 
